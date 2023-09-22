@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://cdn.britannica.com/63/188963-050-2C94FEC2/Night-view-obelisk-Buenos-Aires.jpg');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+    font-size: 20px;
+
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.658);
+
+}
+
+.Header {
+background-color: rgb(46, 40, 40);
+display: flex;
+justify-content: space-between;
+align-items: center;
+min-height: 3em;
+max-height: 5em;
+width: 100%;
+padding: 1em 10%;
+border-bottom: 0.2em solid black;
+position: fixed;
+z-index: 1;
+overflow: hidden scroll;
+}
+.Logo {
+    box-sizing: border-box;
+    width: auto;
+    height: 100%;
+}
+.Header .Logo{
+    cursor: pointer;
+}
+.Header .Logo img {
+    margin-left: 1em;
+    height: 6em;
+    width: auto;
+    transition: all 0.3s;
+}
+h1 {
+    color: #fff190;
+    font-size: 30px;
+    text-decoration: bold;
+}
+.Header .Logo img:hover {
+    transform: scale(1.3);
+    
+}
+.Header #navegacion  li a{
+color: #fff190;
+text-decoration: none;
+font-weight: 600;
+
+}
+.Header #navegacion  li a:hover{
+    background-color: gold;
+    color: rgb(46, 40, 40);
+}
+#navegacion li{
+    display: inline-block;
+    padding: 0.8em;
+}
+.Conecta {
+    border: 1px solid rgb(131, 106, 106);
+    min-width: 100vh;
+    width: 100%;
+    height: 50em;
+    background-image: url(https://www.clarin.com/2020/12/23/u8fJXecdF_1256x620__1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    }
+
+article > div.intro {
+    font-weight: 600;
+    color: gold;
+    width: 20em;
+    height: 10em;
+    text-align: end;
+    top: 50%;
+    left: 70%;
+    background-color:  none;
+    border: 1em  gold;
+    border-radius: 1em;
+    background-color: none;
+    position: absolute;
+    background-color: none;
+    text-wrap: wrap;
+}
+.btn{
+    width: 5em;
+    height: 2.5em;
+    font-size: 1em;
+    background-color:gold;
+    border-radius: 0.3em;
+    color: rgb(100, 67, 24);
+    transition: all 0.3s;
+
+}
+.btn:hover {
+    background-color: rgba(172, 164, 50, 0.877);
+    color: rgb(46, 40, 40) ;
+    cursor: grab;
+    transform: scale(1.2);
+    border-radius: 0.3em;
+
+}
+div.Sedes {
+    position: relative;
+    text-align: center;
+    position: relative center;
+    font-weight: 600;
+    color: rgb(46, 40, 40);
+    text-decoration: bold;
+}
+div.Sedes >h3{
+    font-size: medium;
+}
+#social {
+    height: 30em;
+    width: 100%;
+    position: relative;
+    top: 1em;
+    display: flex;
+}
+.Tercero #Adherite {
+    height: 20em;
+    position: relative;
+    top: 6em;
+}
+div.ventana1{
+    color: rgb(184, 52, 52);
+    font-weight: 600;
+    text-align: left;
+    width: 20%;
+    height: 25em;
+    margin-left: 10%;
+    background-color: none(51, 35, 35);
+    border-radius: 0.4em;
+}
+div.ventana1 > h2{
+    text-align: center;
+}
+div.ventana1 > h3{
+text-align: center;
+font-size: large;
+}
+div.ventana1 > p {
+    font-size: medium;
+    text-align: justify;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+div.ventana2 {
+    color: brown;
+    font-weight: 600;
+    text-align: center;
+    width: 20%;
+    height: 25em;
+    position: relative;
+    margin-left: 10%;
+    background-color: none;
+    border-radius: 0.4em;
+    
+}
+div.ventana2 > h2{
+    text-align: center;
+}
+div.ventana2 > h3{
+text-align: center;
+font-size: large;
+}
+div.ventana2 > p {
+    font-size: medium;
+    text-align: justify;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+div.ventana3 {
+    color: brown;
+    font-weight: 600;
+    text-align: center;
+    width: 20%;
+    height: 25em;
+    position: relative;
+    margin-left: 10%;
+    background-color: none;
+    z-index: 0.2;
+    border-radius: 0.4em;
+}
+div.ventana3 > h2{
+    text-align: center;
+}
+div.ventana3 > h3{
+text-align: center;
+font-size: large;
+}
+div.ventana3 > p {
+    font-size: medium;
+    text-align: justify;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.Platense {
+width: 100%;
+height: 10em;
+position: relative;
+top: 1em;
+align-content: center;
+border-radius: 2em;
+transition: all 0.3s;
+}
+.Platense:hover {
+    transform: scale(1.05);
+}
+.Ferro {
+    width: 100%;
+    height: 10em;
+    position: relative;
+    top: 1em;
+    align-content: center;
+    border-radius: 2em;
+    transition: all 0.3s;
+    }
+    .Ferro:hover {
+        transform: scale(1.05);
+    }
+    .Banfield {
+    width: 100%;
+    height: 10em;
+    position: relative;
+    top: 1em;
+    align-content: center;
+    border-radius: 2em;
+    transition: all 0.3s;
+    }
+    .Banfield:hover {
+        transform: scale(1.05);
+    }
+
+    #Adherite {
+        width: 100;
+        height: 50em;
+        position: relative;
+        top: 0;
+        display: flex;
+    }
+    
+    img.Playa {
+        width: 49%;
+        height: 100%;
+    }
+    div.Right-text {
+        background-color: rgba(31, 28, 28, 0.829);
+        margin-left: 0.3em;
+        width: 51%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        text-align: start;
+    }
+    div.Right-text > h3 {
+        color: rgb(242, 245, 248);
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.8em;
+        text-align: start;
+    }
+    div.Right-text > p {
+        color: rgb(242, 245, 248);
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.8em;
+        text-align: start;
+    
+    }
+    
+    #Platense:hover {
+        transform: scale(1.3);
+        transition: all 0.3s;
+    }
+div.pie-pag{
+position: relative;
+bottom: 0;
+}
+
+
+.Ingresar {
+    width: 100%;
+    background-color: rgb(50, 75, 68);
+}
+footer.footer {
+    display: inline-block;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    margin-top: auto;
+    bottom: -10em;
+    }
+
+.igram {
+    width: 20%;
+    color: purple;
+    text-decoration: none;
+align-items: center;
+font-size: smaller;
+text-align: center;
+}
+.igram:hover {
+    background-color: gold;
+    color: rgb(46, 40, 40);
+}
+.face {
+    width: 20%;
+    color: blue;
+    font-size: smaller;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+.face:hover {
+    background-color: gold;
+    color: rgb(46, 40, 40);
+}
+#igram {
+    width: 1em;
+    position: relative;
+}
+#face {
+width: 1em;
+position: relative;
+}
+
+a.tyc{
+    width: 30%;
+    border: 1px solid red;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: smaller;
+    
+}
+a.tyc:hover {
+    background-color: gold;
+    color: rgb(46, 40, 40);
+    
+}
+a.adc{
+    width: 30%;
+    font-size: smaller;
+    align-items: right;
+    text-decoration: none;
+    position: relative;
+    color: green;
+    text-align: center;
+}
+a.adc:hover{
+background-color: gold;
+color: rgb(46, 40, 40);
+}
+
+.pie-pag{
+    border: 1px solid blue;
+}
