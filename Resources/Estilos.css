@@ -43,6 +43,7 @@ overflow: hidden scroll;
     height: 6em;
     width: auto;
     transition: all 0.3s;
+    scale: 0.9;
 }
 h1 {
     color: #fff190;
@@ -75,14 +76,14 @@ font-weight: 600;
     background-size: cover ;
     }
 
-article > div.intro {
+section > div.intro {
     font-weight: 600;
     color: gold;
     width: 20em;
     height: 10em;
-    text-align: end;
-    top: 50%;
-    left: 70%;
+    text-align: justify;
+    top: 60%;
+    left: 75%;
     background-color:  none;
     border: 1em  gold;
     border-radius: 1em;
@@ -91,8 +92,7 @@ article > div.intro {
     background-color: none;
     text-wrap: wrap;
 }
-button{
-}
+
 .btn{
     width: 5em;
     height: 2.5em;
@@ -103,6 +103,42 @@ button{
     transition: all 0.3s;
     border: none;
 }
+.botones {
+    width: 100%;
+    display: flex ;
+    }
+button.conec {
+    background-color: transparent;
+    color: gray;
+    border: 1px solid white;
+    border-radius: 0.3em;
+    width: 40%;
+    height: 3em;
+    font-size: medium;
+    margin: 5%;
+    transition: 0.3s;
+}
+button.share{
+    background-color: green;
+    border-radius: 0.3em;
+    color: white;
+    width: 50%;
+    height: 3em;
+    font-size: medium;
+    margin: 5%;
+}
+
+button.conec:hover {
+background-color: white;
+color: rgb(46, 40, 40);
+}
+button.share:hover {
+    background-color: white;
+    color: rgb(46, 40, 40);
+}
+
+
+
 .btn:hover {
     background-color: rgba(172, 164, 50, 0.877);
     color: rgb(46, 40, 40) ;
@@ -134,10 +170,20 @@ div.Sedes >h3{
     position: relative;
     top: 6em;
 }
+button.conoce {
+    background-color: transparent;
+    color: white;
+    height: 10%;
+    font-size: small;
+    margin-left: 1em;
+    padding: 0.5em;
+    border: 1px solid white;
+}
 div.ventana1{
-    color: rgb(184, 52, 52);
+    color: rgb(46, 40, 40);
     font-weight: 600;
-    text-align: left;
+    text-align: justify;
+    padding: 0.3em;
     width: 20%;
     height: 25em;
     margin-left: 10%;
@@ -146,21 +192,23 @@ div.ventana1{
 }
 div.ventana1 > h2{
     text-align: center;
+    font-style: italic;
+    color: rgb(100, 67, 24) ;
 }
-div.ventana1 > h3{
+div.ventana1 > h4{
 text-align: center;
 font-size: large;
 }
 div.ventana1 > p {
-    font-size: medium;
     text-align: justify;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
 div.ventana2 {
-    color: brown;
+    color: rgb(46, 40, 40);
     font-weight: 600;
-    text-align: center;
+    text-align: justify;
+    padding: 0.3em;
     width: 20%;
     height: 25em;
     position: relative;
@@ -171,8 +219,10 @@ div.ventana2 {
 }
 div.ventana2 > h2{
     text-align: center;
+    font-style: italic;
+    color: rgb(100, 67, 24);
 }
-div.ventana2 > h3{
+div.ventana2 > h4{
 text-align: center;
 font-size: large;
 }
@@ -183,9 +233,10 @@ div.ventana2 > p {
     margin-right: 0.5em;
 }
 div.ventana3 {
-    color: brown;
+    color: rgb(46, 40, 40);
     font-weight: 600;
-    text-align: center;
+    text-align: justify;
+    padding: 0.3em;
     width: 20%;
     height: 25em;
     position: relative;
@@ -197,7 +248,7 @@ div.ventana3 {
 div.ventana3 > h2{
     text-align: center;
 }
-div.ventana3 > h3{
+div.ventana3 > h4{
 text-align: center;
 font-size: large;
 }
@@ -211,7 +262,6 @@ div.ventana3 > p {
 width: 100%;
 height: 10em;
 position: relative;
-top: 1em;
 align-content: center;
 border-radius: 2em;
 transition: all 0.3s;
@@ -223,7 +273,6 @@ transition: all 0.3s;
     width: 100%;
     height: 10em;
     position: relative;
-    top: 1em;
     align-content: center;
     border-radius: 2em;
     transition: all 0.3s;
@@ -235,7 +284,6 @@ transition: all 0.3s;
     width: 100%;
     height: 10em;
     position: relative;
-    top: 1em;
     align-content: center;
     border-radius: 2em;
     transition: all 0.3s;
@@ -258,7 +306,7 @@ transition: all 0.3s;
     }
     div.Right-text {
         background-color: rgba(31, 28, 28, 0.829);
-        margin-left: 0.3em;
+        margin-left: 0.2em;
         width: 51%;
         height: 100%;
         position: relative;
@@ -267,15 +315,14 @@ transition: all 0.3s;
     }
     div.Right-text > h3 {
         color: rgb(242, 245, 248);
-        margin-left: 1em;
-        margin-right: 1em;
+        margin-left: 0.8em;
         margin-top: 0.8em;
         text-align: start;
     }
     div.Right-text > p {
         color: rgb(242, 245, 248);
-        margin-left: 1em;
-        margin-right: 1em;
+        margin-left: 0.8em;
+        margin-right: 0.8em;
         margin-top: 0.8em;
         text-align: start;
     
@@ -294,25 +341,23 @@ transition: all 0.3s;
 
 .igram {
     width: 20%;
-    color: purple;
+    color: violet;
     text-decoration: none;
 align-items: center;
 font-size: smaller;
 text-align: center;
 }
 .igram:hover {
-    background-color: gold;
     color: rgb(46, 40, 40);
 }
 .face {
     width: 20%;
-    color: blue;
+    color: violet;
     font-size: smaller;
     text-decoration: none;
     text-align: center;
 }
 .face:hover {
-    background-color: gold;
     color: rgb(46, 40, 40);
 }
 #igram {
@@ -333,12 +378,11 @@ a.tyc{
     text-align: center;
     text-decoration: none;
     position: relative;
-    color: black;
+    color: violet;
     font-size: smaller;
     
 }
 a.tyc:hover {
-    background-color: gold;
     color: rgb(46, 40, 40);
     
 }
@@ -348,19 +392,28 @@ a.adc{
     align-items: right;
     text-decoration: none;
     position: relative;
-    color: green;
+    color: violet;
     text-align: center;
 }
 a.adc:hover{
-background-color: gold;
 color: rgb(46, 40, 40);
+}
+.card {
+border: 1px solid gray;
+
+}
+
+div.forms {
+    position: relative;
+
 }
 
 
-
 footer {
+    align-items: center;
+    height: 10em;
+    background-color: rgb(50, 75, 68);
     position: relative;
     margin-top: 10em;
-    background-color: whitesmoke;
-    display: flex;
+    display: flex ;
 }
